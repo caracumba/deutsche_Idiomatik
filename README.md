@@ -6,7 +6,7 @@ The program searches for **modifications the idioms** undergo and makes staticti
 It is designed for **frequent idioms**, for which the researcher can found thousands of contexts 
 so that to view them all would be too time-consuming.
 
-##Steps:
+## Steps:
 1) First you need to obtain a file from DeReKo.
 2) The rtf-file must be converted to a txt-file.
 The header of the text must be removed, so the file should begin with the first context.
