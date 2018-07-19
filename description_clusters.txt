@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 10 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     data_weka
+Instances:    102
+Attributes:   11
+              ï»¿id
+              Negation
+              Infinitiv mit zu
+              Modalverben
+              Konjunktiv II
+              Passiv
+              Futur I
+              Partizip 2
+              Perfekt
+               PrÃ¤teritum
+               PrÃ¤sens
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 105.01709394471666
+
+Initial starting points (random):
+
+Cluster 0: 'ans Licht bringen',2.12,10.17,7.85,1.44,3.64,1.75,5.68,15.53,29.31,39.58
+Cluster 1: 'auf die Kappe nehmen',4.09,3.2,23.73,0.84,0.22,0.34,1.01,3.92,22.59,50.67
+Cluster 2: 'in Kauf nehmen',1.93,5.6,24.07,3.47,6.98,0.94,4.52,8.82,10.16,44.42
+Cluster 3: 'seinen Hut nehmen',2.27,4.12,38.18,1.47,0.16,2.39,2.43,5.52,17.59,39.33
+Cluster 4: 'es nicht mehr lange machen',8.02,16.32,4.27,1.05,1.47,1.6,21.16,6.9,18.78,92.58
+Cluster 5: 'sein Herz verlieren',3.91,3.73,2.81,1.19,0.5,0.36,30.17,35.48,78.37,28.53
+Cluster 6: 'durch den Kopf gehen',1.43,0.29,8.41,2.62,0.47,2.04,4.25,7.65,26.08,52.29
+Cluster 7: 'auf den Leim gehen',17.12,9.39,5.45,4.36,0.21,1.86,7.53,26.43,14.78,43.01
+Cluster 8: 'auf den Damm bringen',4.17,12.5,4.17,4.17,0,0,16.67,8.33,33.33,62.5
+Cluster 9: 'aus der Reihe tanzen',8.04,5.85,7.12,0.82,0.54,0.95,0.87,2.98,18.7,70.07
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                                                 Cluster#
+Attribute                                              Full Data                        0                        1                        2                        3                        4                        5                        6                        7                        8                        9
+                                                         (102.0)                   (24.0)                   (13.0)                    (6.0)                    (3.0)                   (10.0)                    (2.0)                   (13.0)                    (3.0)                    (9.0)                   (19.0)
+==========================================================================================================================================================================================================================================================================================================================
+ï»¿id                                   abwarten und Tee trinken        an die Hand geben     auf die Kappe nehmen         auf Trab bringen    aus dem Kopf schlagen      auf den Grund gehen      den Faden verlieren      an die Nieren gehen       auf den Kopf hauen auf einen Nenner bringen abwarten und Tee trinken
+Negation                                                  8.7753                   5.1112                   6.4177                    16.13                   2.7833                    5.562                     5.04                   3.5477                  13.7867                   4.5233                  20.5242
+Infinitiv mit zu                                          7.8264                   5.9513                   8.0262                   11.625                     9.87                   23.331                     4.47                   2.5769                   3.7533                  12.5867                   2.7089
+Modalverben                                                9.777                   7.2096                  21.3823                  10.5917                  39.4467                    10.83                    2.115                   7.2385                   4.0633                   5.4333                   5.0863
+Konjunktiv II                                             2.5172                   1.7512                   1.8792                   3.1967                   1.7633                    1.688                     0.92                     5.49                  12.2867                   1.7733                   1.2058
+Passiv                                                    3.1309                   2.9571                   1.2969                  20.4317                     0.66                    3.755                    0.305                   1.0792                   2.3733                   4.3744                   0.4353
+Futur I                                                   1.4702                   1.3167                   3.4577                    1.125                   1.6633                    0.637                    0.225                     2.32                     0.28                   0.9244                   0.8174
+Partizip 2                                                5.9337                   4.7604                   2.7708                    7.835                     3.53                    5.023                   29.245                   3.8215                  15.3067                  18.3578                   1.4647
+Perfekt                                                  11.2371                  13.9867                   7.8731                    10.61                     7.09                    7.747                    30.53                   9.7192                    44.65                  13.8556                   5.2468
+ PrÃ¤teritum                                             20.7834                  32.4846                  14.6654                    6.385                  10.1967                   13.782                   78.955                  15.9231                   7.7533                  21.3411                  19.0879
+ PrÃ¤sens                                                53.0011                    40.61                    48.73                    37.85                    41.31                   66.566                    24.92                  58.6038                    20.68                  55.1056                  74.2953
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+ 0       24 ( 24%)
+ 1       13 ( 13%)
+ 2        6 (  6%)
+ 3        3 (  3%)
+ 4       10 ( 10%)
+ 5        2 (  2%)
+ 6       13 ( 13%)
+ 7        3 (  3%)
+ 8        9 (  9%)
+ 9       19 ( 19%)
