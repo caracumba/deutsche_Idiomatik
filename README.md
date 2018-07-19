@@ -1,6 +1,6 @@
 # deutsche_Idiomatik
 
-The program analyses corpus data acquired from [DeReKo] (https://cosmas2.ids-mannheim.de/cosmas2-web/).
+The program analyses corpus data acquired from [DeReKo](https://cosmas2.ids-mannheim.de/cosmas2-web/).
 The data contains occurences of German idioms. 
 The program searches for **modifications the idioms** undergo and makes statictical data on them.
 It is designed for **frequent idioms**, for which the researcher can found thousands of contexts 
